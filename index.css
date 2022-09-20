@@ -1,0 +1,80 @@
+div{
+    height: 70px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+ul li{
+
+    float: left;
+    list-style: none;
+    background-color: skyblue;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 25px;
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 15px;
+    box-shadow: 3px 3px blue;
+
+}
+
+a:link{
+    font-size: x-large;
+}
+
+ul li a{
+    color:Black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+ul li:hover{
+    background-color: rgb(46, 129, 202);
+    color: silver;
+    font-size: large;
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: 5px 5px Silver;
+    position: relative;
+}
+
+ a:hover{
+    color: white;
+    font-size: xx-large;
+}
+
+ul li>ul li{
+    display: none;
+    position: relative;
+    
+}
+
+ul li:hover>ul li{
+    display: block;
+    position: relative;
+    left: -30px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.two{
+    position: relative;
+    top: -375px;
+}
+
+.one{
+    position: relative;
+    left: -220px;
+    top: 70px;
+    opacity: 30%;
+}
+
+
+
+
+
+

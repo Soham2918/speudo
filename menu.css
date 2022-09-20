@@ -1,0 +1,70 @@
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(2, 2, 99);
+}
+div h1{
+    text-align: center;
+    color: white;
+    line-height: 150px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+}
+ul li{
+    float: left;
+    list-style:none;
+    position: relative;
+    width: 100px;
+    margin-left: 10px;
+    
+}
+ul li>ul{
+    margin-top: 18px;
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+
+}
+
+ul li>ul li{
+    display: none;
+    width: 300px;
+}
+
+
+ul li:hover>ul li{
+    display: inline;
+    background-color: skyblue;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+ul li a:hover{
+    border-left: solid 3px red;
+    margin-left: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 15px;
+
+}
+
+ul li>ul li>a{
+    color: aliceblue;
+}
+
+ul li>ul li a:hover{
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+    width: 280px;
+    border-radius: 20px;
+}

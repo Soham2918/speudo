@@ -1,0 +1,18 @@
+p{
+    font-size: xx-large;
+    text-align: left;
+
+}
+
+div{
+    height: 500px;
+    background-color: black;
+    border: green 10px solid;
+    overflow: scroll;
+
+}
+p{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
